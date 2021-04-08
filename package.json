@@ -1,0 +1,38 @@
+{
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.7"
+	},
+	"name": "repository-template",
+	"description": "---",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/",
+		"dev": "nodemon src/",
+		"inspect-code": "npx prettier --write src/** && npx eslint --fix src/*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oicrruf/repository-template.git"
+	},
+	"author": "Víctor M. Reyes",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/oicrruf/repository-template/issues"
+	},
+	"homepage": "https://github.com/oicrruf/repository-template#readme",
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^12.1.1",
+		"@commitlint/config-conventional": "^12.1.1",
+		"eslint": "^7.23.0",
+		"husky": "^6.0.0",
+		"prettier": "2.2.1"
+	}
+}
