@@ -31,3 +31,10 @@ Para encontrar referencias de los metodologías o buenas prácticas implementada
 #####Bisect (debugging with git)
 
 -   Documentación en español donde se explica el uso de `git bisect` [git-scm](https://git-scm.com/book/es/v2/Herramientas-de-Git-Haciendo-debug-con-Git)
+
+#####Packages
+
+-   Husky [husky](https://github.com/typicode/husky)
+-   CommitLint [commitlint](https://github.com/conventional-changelog/commitlint)
+-   ESLint [eslint](https://github.com/eslint/eslint)
+-   Prettier [prettier](https://github.com/prettier/prettier)
