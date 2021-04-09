@@ -27,3 +27,7 @@ Para encontrar referencias de los metodologías o buenas prácticas implementada
 #####Workspaces
 
 -   Documentación de espacios de trabajo en Visual Studio Code [workspaces](https://code.visualstudio.com/docs/editor/workspaces)
+
+#####Bisect (debugging with git)
+
+-   Documentación en español donde se explica el uso de `git bisect` [git-scm](https://git-scm.com/book/es/v2/Herramientas-de-Git-Haciendo-debug-con-Git)
